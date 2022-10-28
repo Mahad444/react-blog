@@ -1,0 +1,9 @@
+body{
+    background: burlywood;
+}
+#name #email #number {
+    padding: 10px;
+}
+#submit{
+    background: rgb(68, 68, 248);
+}

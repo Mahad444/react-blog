@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Lorem ipsum dolor sit amet consectetur, <br>
+        adipisicing elit. Dignissimos quidem voluptatibus optio, <br>
+        facilis inventore voluptate magni modi blanditiis.<br>
+         Accusamus vel voluptatum eum. <br>
+         Modi, vitae architecto voluptas rem nobis obcaecati iusto.</p>
+         <form id="survey-form">
+            <label for="fname">FistName:
+            <input type="name" name="name" id="name" placeholder="FirstName"></input>
+            </label>
+            <br>
+            <label for="fname">Email:
+            <input type="email" id="email" placeholder="Email" ></input>
+            </label>
+            <br>
+            <label for="fname">Number:
+            <input type="number"  id="number"></input>
+            </label><br>
+            <p>choose gender</p>
+                <input type="radio"id="male">Male
+                <input type="radio">Female
+                <label for="male"></label><br>
+                <label>Select City
+                    <select id="Cities">
+                        <option value="Nairobi">Nairobi</option>
+                        <option value="Nakuru">Nakuru</option>
+                        <option value="Mombasa">Mombasa</option>
+                        <option value="Kisumu">Kisumu</option>
+                    </select>
+                </label>
+        <p>I like The Following Foods 
+            <ol>
+                <li><input type="checkbox">Pilau</li>
+                <li><input type="checkbox">Biryani</li>
+                <li><input type="checkbox">Chips</li>
+                <li><input type="checkbox">Chicken</li>
+                <li><input type="checkbox">Ugali</li>
+            </ol>
+        </p>
+
+        <textarea name="comments" id="" cols="30" rows="10" placeholder="Additional Comments"></textarea><br>
+        <button type="submit" id="submit">Submit</button>
+         </form>
+</body>
+
+</html>
