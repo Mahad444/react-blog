@@ -1,0 +1,24 @@
+{
+  "name": "daktari",
+  "version": "1.0.0",
+  "description": "doctors appointment system for patients",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "DatariAppointee"
+  },
+  "keywords": [
+    "doctor",
+    "appointment",
+    "doctor",
+    "nearby"
+  ],
+  "author": "MahadAllyJumaSaid",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
